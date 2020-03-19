@@ -1,4 +1,4 @@
-# Barnsley-ncurses-implementation
+# Barnsley-Fern
 Made with help from a friend's implementation in SFML.
 
 ![Barnsley Fern](Barnsley.gif)
