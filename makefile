@@ -1,0 +1,13 @@
+CC = gcc
+CXX = g++
+CFLAGS = -g -lncurses
+CXXFLAGS = -g -lncurses
+
+Barnsley: Barnsley.cpp
+	$(CXX) $(CXXFLAGS) -o Barnsley Barnsley.cpp
+
+all: Barnsley.cpp 
+	$(CXX) $(CXXFLAGS) -o Barnsley Barnsley.cpp
+
+clean:
+	rm -r Barnsley Barnsley.dSYM
