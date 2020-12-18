@@ -1,5 +1,5 @@
 # Barnsley-Fern
-Made with help from a friend's implementation in SFML.
+Made with help from a friend's implementation in SFML. (can run much faster than the gif suggests)
 
 ![Barnsley Fern](Barnsley.gif)
 
