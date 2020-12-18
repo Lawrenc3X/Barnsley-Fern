@@ -23,8 +23,8 @@ long double top_left[2] = {0, 0};
 std::vector<std::array<long double, 2> > points;
 
 // size of character is 14px 18px
-// terry's window is 1800px 980pxc
-// terry's turtle starts at 1400px 500px
+// reference window is 1800px 980pxc
+// reference turtle starts at 1400px 500px
 
 long double xi = 1561;
 long double yi = 500;
