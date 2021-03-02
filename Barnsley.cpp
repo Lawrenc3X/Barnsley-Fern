@@ -9,7 +9,7 @@
 #define TARGET_WIDTH            201
 #define TERR_HEIGHT_ORIGINAL    980
 #define POINTS                  150000
-#define STEP                    10
+#define STEP                    30
 
 const long double ratio = TARGET_WIDTH/TARGET_HEIGHT;
 const long double TERR_WIDTH_ORIGINAL = TERR_HEIGHT_ORIGINAL * ratio;
@@ -165,15 +165,15 @@ int main()
         int c = getch();
         if (c == KEY_LEFT)
         {
-            resize_window(1.01);
+            resize_window(1.1);
             draw();
         }else if (c == KEY_RIGHT)
         {
-            resize_window(0.99);
+            resize_window(0.9);
             draw();
         }else if (c == 119) // "W"
         {
-            move_window(0, -STEP);
+            move_window(0, -STEP * 2);
             draw();
         }else if (c == 97) // "A"
         {
@@ -181,7 +181,7 @@ int main()
             draw();
         }else if (c == 115) // "S"
         {
-            move_window(0, STEP);
+            move_window(0, STEP * 2);
             draw();
         }else if (c == 100) // "D"
         {
