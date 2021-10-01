@@ -1,7 +1,7 @@
 CC = gcc
 CXX = g++
-CFLAGS = -g -lncurses
-CXXFLAGS = -g -lncurses
+CFLAGS = -lncurses
+CXXFLAGS = -lncurses
 
 Barnsley: Barnsley.cpp
 	$(CXX) $(CXXFLAGS) -o Barnsley Barnsley.cpp

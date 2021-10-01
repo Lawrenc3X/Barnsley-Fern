@@ -1,7 +1,7 @@
 # Barnsley-Fern
-Made with help from a friend's implementation in SFML. (can run much faster than the gif suggests)
+Made with help from a friend's implementation in SFML.
 
-![Barnsley Fern](Barnsley.gif)
+![Barnsley Fern](Barnsley.mov)
 
 Supports zooming and panning:
  - WASD to pan
